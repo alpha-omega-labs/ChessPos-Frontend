@@ -85,7 +85,7 @@ function HomePage() {
   const mainPage = () => {
     return (
       <div className="home-bg2" style={{ height: "100vh" }}>
-        <Navbar head="ChessPOS" />
+        <Navbar head="NFT Chess" />
 
         <div className="joinLobbyMaindiv">
           <div
