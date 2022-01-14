@@ -122,7 +122,7 @@ const Home = () => {
             </div>
 
             <ul className="tag-points">
-              <li>• Stake crypto, Winners takes it all.</li>
+              <li>• Stake L1, win the game.</li>
               <li>• Mint chess positions as NFTs from your games. </li>
               <li>• Mint your match as an Animated GIF NFT. </li>
               <li>• Purely Decentralised. #Web3.0</li>
@@ -160,10 +160,7 @@ const Home = () => {
                 bottom: "10rem",
               }}
             />
-            <a href="https://polygon.technology/" target="_blank">
-              <img alt="Powered by polygon" src={Polygon} className="polygon" />
-            </a>
-          </div>
+            </div>
         </div>
       </div>
     </>
@@ -230,11 +227,11 @@ const Work = () => {
               <Container className={classes.card}>
                 <img alt="business" src={Business} className={classes.image} />
                 <div style={{ fontSize: "1.25rem" }}>
-                  Stake your crypto coins
+                  Stake L1 coins to play
                 </div>
                 <Typography className={classes.para}>
-                  Before matchmaking, user has to stake crypto coins and wait
-                  for the rival to accept the challenge.
+                  Before match, user has to stake L1 coins and wait
+                  for the opponent.
                 </Typography>
               </Container>
             </div>
@@ -249,11 +246,11 @@ const Work = () => {
                 <img alt="Gaming" src={Gaming} className={classes.image} />
 
                 <Container style={{ fontSize: "1.25rem" }}>
-                  Play chess with opponent
+                  Play chess with friends
                 </Container>
                 <Typography className={classes.para}>
-                  After staking coins for the match, user will be directed to a
-                  match with an opponent with same amount of challenge.
+                  After staking L1 coins for the match, user will be directed to a
+                  match.
                 </Typography>
               </Container>
             </div>
@@ -271,12 +268,10 @@ const Work = () => {
               <Container className={classes.card}>
                 <img alt="Winner" src={Winner} className={classes.image} />
                 <Container style={{ fontSize: "1.25rem" }}>
-                  Winner takes it all
+                  Win the game
                 </Container>
                 <Typography className={classes.para}>
-                  After the match is over, the winner will win the opponent’s
-                  stake coins and both can mint any position/whole game as an
-                  NFT.
+                  After the match is over you can mint NFT.
                 </Typography>
               </Container>
             </div>
@@ -407,7 +402,7 @@ const Functioning = () => {
               Play Smart
             </span>
             <span className="explainMain" style={{ fontSize: "3rem" }}>
-              Make money smartly
+              Make L1 smartly
             </span>
             <br />
             <span className="explainDet">
@@ -458,7 +453,7 @@ const Functioning = () => {
                 • The details of the your opponent.
               </li>
               <li className="explainDet">• The position that you chose.</li>
-              <li className="explainDet">• No. of staked tokens.</li>
+              <li className="explainDet">• No. of staked L1 coins.</li>
               <li className="explainDet">
                 • A description box to describe the significance of your NFT.
               </li>
@@ -812,9 +807,9 @@ const Faqs = () => {
   const qNa = [
     {
       id: 0,
-      question: "What is chessPos?",
+      question: "What is NFT Chess?",
       answer:
-        "ChessPos is a decentralised web app where users can play chess with others by putting some matic coins at stake and getting rewards for winning. Chesspos also allows users to engrave their chess game memories on blockchain by minting position based/Animated gif NFTs.",
+        "NFT Chess is a decentralised web app where users can play chess with others by putting some matic coins at stake and getting rewards for winning. Chesspos also allows users to engrave their chess game memories on blockchain by minting position based/Animated gif NFTs.",
     },
     {
       id: 1,
@@ -830,36 +825,30 @@ const Faqs = () => {
     },
     {
       id: 3,
-      question: "Where can I sell my NFTs?",
+      question: "Is NFTs metadata opensea compaitable?",
       answer:
-        "All NFTs metadata are opensea compaitable, So you can easily sell your NFTs on testnet.opensea.io",
+        "All NFTs metadata are opensea compaitable.",
     },
     {
       id: 4,
       question: "What else is on the metadata of the NFTs?",
       answer:
-        "We store all the metadata on IPFS. We store white's address, black's address, tokens at stake, winner, time of creation, description, and fen/pgn string of the game based on the type of NFT.",
+        "NFT Chess store all the metadata on IPFS. We store white's address, black's address, tokens at stake, winner, time of creation, description, and fen/pgn string of the game based on the type of NFT.",
     },
     {
       id: 5,
       question: "What is the price of minting NFTs?",
       answer:
-        "Currently the Dapp runs on polygon mumbai testnet so all of the nft minting price is free. We will soon add a price for the nft minting on the mainnet launch.",
+        "Dapp runs on genesisL1 mainne, fees are very low.",
     },
     {
       id: 6,
       question:
-        "How do you make sure every NFT chesspos mints is unqiue in itself?",
+        "How do you make sure every NFT Chess mints is unqiue in itself?",
       answer:
-        "Every NFT we mint is linked to a unqiue string which is pgn for animated gif and fen string for postion based NFTs. There are checks on smart contract which make sure that the unqiue string (pgn/fen) is unique for every NFT before starting the minting process.",
+        "Every NFT minted is linked to a unqiue string which is pgn for animated gif and fen string for postion based NFTs. There are checks on smart contract which make sure that the unqiue string (pgn/fen) is unique for every NFT before starting the minting process.",
     },
-    {
-      id: 7,
-      question: "Where can I find contract addresses for chesspos?",
-      answer:
-        "Contract addresses for polygon mumbai testnet are 0x9704e539D741e5C59E29FaFBe6b4Ab271bd68FC1 for chess game logic, and 0xCEE29418D1F6f8eC86C99FE754eB921923e5055B for nfts.",
-    },
-  ];
+     ];
 
   return (
     <div
