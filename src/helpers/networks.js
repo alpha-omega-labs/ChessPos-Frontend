@@ -26,6 +26,14 @@ export const networkConfigs = {
     currencySymbol: "ETH",
     rpcUrl: "http://127.0.0.1:7545",
   },
+   "0x1d": {
+    chainId: 29,
+    chainName: "genesisL1",
+    currencyName: "L1",
+    currencySymbol: "L1",
+    rpcUrl: "http://0.0.0.0:8545",
+    blockExplorerUrl: "https://explore.genesisL1.org",
+  },
   "0xa86a": {
     chainId: 43114,
     chainName: "Avalanche Mainnet",
