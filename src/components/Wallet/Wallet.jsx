@@ -38,8 +38,8 @@ function Wallet() {
         
         onClick={() =>
           authenticate({
-            signingMessage: "Welcome to Chess Pos",
-            chainId: 80001,
+            signingMessage: "Welcome to NFT Chess",
+            chainId: 29,
           })
         }
       >
