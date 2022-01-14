@@ -27,7 +27,7 @@ const menuItems = [
     icon: <PolygonLogo />,
   },
   {
-    key: "0x1D",
+    key: "0x1d",
     value: "genesisL1",
     icon: <PolygonLogo />,
   },
@@ -99,7 +99,7 @@ function Chains() {
             fontWeight: "500",
           }}
           onClick={() => {
-            switchNetwork("0x1D");
+            switchNetwork("0x1d");
             setIsModalVisible(false);
           }}
         >
