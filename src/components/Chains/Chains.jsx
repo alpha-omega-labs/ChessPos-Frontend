@@ -27,8 +27,8 @@ const menuItems = [
     icon: <PolygonLogo />,
   },
   {
-    key: "0x13881",
-    value: "Mumbai",
+    key: "0x1D",
+    value: "genesisL1",
     icon: <PolygonLogo />,
   },
 ];
@@ -87,7 +87,7 @@ function Chains() {
         style={{ fontSize: "16px", fontWeight: "500" }}
         width="400px"
       >
-        Current Chain is not supported please switch to Polygon
+        Current Chain is not supported please switch to genesisL1
         <Button
           size="large"
           type="primary"
@@ -99,11 +99,11 @@ function Chains() {
             fontWeight: "500",
           }}
           onClick={() => {
-            switchNetwork("0x13881");
+            switchNetwork("0x1D");
             setIsModalVisible(false);
           }}
         >
-          Switch to Polygon
+          Switch to genesisL1
         </Button>
       </Modal>
     </div>
