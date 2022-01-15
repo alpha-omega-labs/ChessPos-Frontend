@@ -174,17 +174,7 @@ function StakeTokens() {
             <span style={{ position: "relative", bottom: "5px" }}>
               Stake {gameAmount / 10 ** 18}
             </span>
-            <img
-              alt="matic"
-              src={Matic}
-              style={{
-                height: "2.5rem",
-                width: "2.5rem",
-                position: "relative",
-                bottom: "7px",
-                left: "20px",
-              }}
-            />
+            L1
           </button>
         </section>
       </div>
