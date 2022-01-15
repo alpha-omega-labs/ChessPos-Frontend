@@ -116,13 +116,14 @@ const Home = () => {
             <div className="blur-container">
               <div className="blur-bg"></div>
               <div className="tagline">
-                Your <span className="tagline-bold">Position</span> <br />
-                Your <span className="tagline-bold">Ownership</span>
+                L1 <span className="tagline-bold">NFTchess</span> <br />
+                Play <span className="tagline-bold">Web3.0</span>
               </div>
             </div>
 
             <ul className="tag-points">
-              <li>• Stake L1, win the game.</li>
+              <li>• Desktop friendly</li>
+              <li>• Play with L1, win the game.</li>
               <li>• Mint chess positions as NFTs from your games. </li>
               <li>• Mint your match as an Animated GIF NFT. </li>
               <li>• Purely Decentralised. #Web3.0</li>
