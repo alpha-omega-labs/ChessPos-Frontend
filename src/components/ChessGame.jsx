@@ -486,15 +486,7 @@ function ChessGame() {
           >
             <span style={{ fontSize: "1.1rem" }}>{amount * 2}</span>
             <span>
-              <img
-                alt="Matic"
-                src={Matic}
-                style={{
-                  width: "1.5rem",
-                  height: "1.5rem",
-                  marginLeft: "1rem",
-                }}
-              />
+              L1
             </span>
           </div>
         </div>
