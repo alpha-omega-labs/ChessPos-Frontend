@@ -208,11 +208,7 @@ function WonMatch() {
                 >
                   <span style={{ padding: 0, fontSize: "1.5rem"}}>{amount * 2}</span>
 
-                  <img
-                    alt="Matic"
-                    src={Matic}
-                    style={{ width: "2rem", height: "2rem", margin: "0rem 1rem" }}
-                  />
+                 L1
                 </div>
               </div>
             </div>
