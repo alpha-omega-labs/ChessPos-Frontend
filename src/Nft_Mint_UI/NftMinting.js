@@ -389,12 +389,7 @@ const NftMinting = () => {
                       style={{ fontSize: "1.5rem", fontWeight: "bold" }}
                     >
                       {game.amount}
-                      <img
-                        src={Matic}
-                        alt=""
-                        className="maticToken"
-                        style={{ marginLeft: "1rem" }}
-                      />
+                      L1
                     </span>
                     <span
                       className="mainText"
