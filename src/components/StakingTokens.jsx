@@ -122,17 +122,7 @@ function StakingTokens() {
                   value={amount}
                   onChange={handleAmount}
                 />
-                <img
-                  alt="Matic"
-                  src={Matic}
-                  style={{
-                    height: "2rem",
-                    width: "2rem",
-                    position: "relative",
-                    right: "4rem",
-                    top: "3.2rem",
-                  }}
-                />
+          L1
               </div>
               <input
                 type="submit"
