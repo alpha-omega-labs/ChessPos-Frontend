@@ -149,11 +149,7 @@ const NftMintButt = () => {
               <section className="mainText" style={{ padding: "0rem 8rem" }}>
               <div style={{display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center"}}>
               <span style={{ padding: "0rem 1rem" }}>{game.amount}</span>
-                <img
-                  alt="Matic"
-                  src={Matic}
-                  style={{ width: "3rem", height: "3rem", margin: "0rem 0.5rem" }}
-                />
+               L1
                 <span style={{ padding: "0rem 1rem", fontSize: "2rem" }}>at Stake</span>
 
               </div>
