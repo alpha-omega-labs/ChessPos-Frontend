@@ -124,7 +124,7 @@ const Home = () => {
             <ul className="tag-points">
               <li>• Desktop friendly</li>
               <li>• Play with L1, win the game.</li>
-              <li>• Mint chess positions as NFTs from your games. </li>
+              <li>• Mint chess positions NFTs from your games. </li>
               <li>• Mint your match as an Animated GIF NFT. </li>
               <li>• Purely Decentralised. #Web3.0</li>
             </ul>
