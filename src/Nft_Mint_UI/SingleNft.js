@@ -86,11 +86,7 @@ const SingleNft = () => {
               }}
             >
               Tokens at Stake: {nft.amountAtStake}
-              <img
-                alt="Matic"
-                src={Matic}
-                style={{ width: "2rem", height: "2rem" }}
-              />
+              L1
             </span>
             <span
               className="mainText"
